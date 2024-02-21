@@ -1,0 +1,11 @@
+-----------------------------------------------------------------------
+Durante os vídeos, vimos que não é interessante entregar ou renderizar 
+sempre uma página HTML, já que existe dispositivos e finalidades que 
+não utilizarão o HTML, mas sim os dados.
+
+Dito isso, qual o primeiro passo para criar uma aplicação integrável?
+
+Devemos entregar os dados em outros formatos, por exemplo JSON.
+Alternativa correta! Devemos entregar nossos dados em formatos mais 
+acessíveis para agentes intermediários como outros desenvolvedores!
+-----------------------------------------------------------------------
