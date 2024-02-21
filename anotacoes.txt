@@ -31,3 +31,18 @@ Instalamos o Django Rest Framework.
 Usuário (leave blank to use 'carol'): 
 Endereço de email: carol@test.com
 Password:123456
+-----------------------------------------------------------------------
+Para manter os dados armazenados no banco de dados, criamos um modelo 
+e executamos a migração.
+
+Sabendo disso, para entregar os dados armazenados no banco de dados 
+no formato Json por exemplo ou receber um Json para salvar no banco 
+de dados, o que devemos fazer?
+
+Devemos criar uma classe com a responsabilidade de serializar os 
+dados.
+
+Alternativa correta! Certo! Os dados de saída devem ser serializados 
+em um formato específico, e os dados de entrada serão desserializados 
+para processamento.
+-----------------------------------------------------------------------
