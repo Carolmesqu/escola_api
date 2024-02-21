@@ -67,3 +67,10 @@ Viewsets incluem ações como criar, listar, atualizar ou deletar.
 Alternativa correta! Certo! Os Viewsets incluem essas ações ou 
 operações por padrão.
 -----------------------------------------------------------------------
+Criamos as classes AlunosViewSet e CursosViewSet para usufruir das 
+principais;
+
+Realizamos uma requisição GET retornando um Json;
+
+Instalamos o Django Rest Framework.
+-----------------------------------------------------------------------
