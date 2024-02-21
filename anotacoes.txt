@@ -53,3 +53,17 @@ alunos, alunas ou cursos;
 
 Criamos a classe responsável para serializar os dados.
 -----------------------------------------------------------------------
+Como vimos na aula, os ViewSets permitem definir as interações da sua 
+API e permitir que a estrutura REST construa os URLs dinamicamente 
+com um objeto roteador.
+
+Sabendo disso, analise as afirmações abaixo e marque as verdadeiras.
+
+A utilização de Viewset pode evitar repetir a lógica das views.
+Alternativa correta! Certo! Não será necessário incluir a lógica para 
+um CRUD, analisando as estruturas do REST para cada recurso.
+
+Viewsets incluem ações como criar, listar, atualizar ou deletar.
+Alternativa correta! Certo! Os Viewsets incluem essas ações ou 
+operações por padrão.
+-----------------------------------------------------------------------
