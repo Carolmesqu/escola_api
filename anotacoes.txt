@@ -24,3 +24,7 @@ VSc2c0R2lXS0lRYUNZMTdhZlV0Zlc1RkQ2M3VWJTJGZ2RqTHBhSEpwY0ZZa3F0Qm9ac
 WclMkZPMWh3cGMwNkdnaUVjdzN4Skk3S2JvcTk2MlNvWHpMSExvOSUyRkduZzVrVkJu
 VXRUQVF0T0dIcU56MldmdyUyRlk5d0dFNTVKSkElM0QlM0Q.
 -----------------------------------------------------------------------
+Entendemos o que é uma API;
+Realizamos uma requisição GET retornando um Json;
+Instalamos o Django Rest Framework.
+-----------------------------------------------------------------------
