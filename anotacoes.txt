@@ -28,3 +28,6 @@ Entendemos o que é uma API;
 Realizamos uma requisição GET retornando um Json;
 Instalamos o Django Rest Framework.
 -----------------------------------------------------------------------
+Usuário (leave blank to use 'carol'): 
+Endereço de email: carol@test.com
+Password:123456
