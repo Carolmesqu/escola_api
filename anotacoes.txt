@@ -46,3 +46,10 @@ Alternativa correta! Certo! Os dados de saída devem ser serializados
 em um formato específico, e os dados de entrada serão desserializados 
 para processamento.
 -----------------------------------------------------------------------
+Criamos o modelo de aluno e de curso;
+
+Configuramos o Django Admin para criar, editar, listar e deletar 
+alunos, alunas ou cursos;
+
+Criamos a classe responsável para serializar os dados.
+-----------------------------------------------------------------------
