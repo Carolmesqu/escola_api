@@ -9,3 +9,18 @@ Devemos entregar os dados em outros formatos, por exemplo JSON.
 Alternativa correta! Devemos entregar nossos dados em formatos mais 
 acessíveis para agentes intermediários como outros desenvolvedores!
 -----------------------------------------------------------------------
+Documentação oficial:
+O Django Rest Framework é uma biblioteca poderosa para desenvolver 
+web APIs de forma rápida, segura e simples.
+
+Para maiores informações sobre esta incrível biblioteca,
+https://www.django-rest-framework.org/
+
+Quer entender melhor o que é JSON?
+https://www.alura.com.br/artigos/o-que-e-json?utm_source=gnarus&utm_
+medium=timeline&_gl=1*mth42u*_ga*MjA1MjM4MzU0NC4xNzA4MDQyNDY1*_ga_1
+EPWSW3PCS*MTcwODQ4MDg1OS44LjEuMTcwODQ4Mjg5Ni4wLjAuMA..*_fplc*Q09Kd1
+VSc2c0R2lXS0lRYUNZMTdhZlV0Zlc1RkQ2M3VWJTJGZ2RqTHBhSEpwY0ZZa3F0Qm9ac
+WclMkZPMWh3cGMwNkdnaUVjdzN4Skk3S2JvcTk2MlNvWHpMSExvOSUyRkduZzVrVkJu
+VXRUQVF0T0dIcU56MldmdyUyRlk5d0dFNTVKSkElM0QlM0Q.
+-----------------------------------------------------------------------
