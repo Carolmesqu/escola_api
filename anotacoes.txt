@@ -108,3 +108,36 @@ Criamos o modelo de matrícula, vinculando um aluno em um curso;
 
 Disponibilizamos os recursos de matrícula para nossa API.
 -----------------------------------------------------------------------
+Ariel criou o seguinte serializer para listar todos os alunos 
+matriculados em um curso:
+
+class ListaAlunosMatriculadosSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Matricula
+        fields = ['aluno']
+
+Porém, após realizar todas as configurações nos modelos, view.py e 
+urls.py, percebeu que os ids dos alunos eram exibidos e não seus nomes. 
+Com base nessa situação, analise as afirmações abaixo e marque as 
+verdadeiras:
+
+É possível configurar as informações que serão exibidas no serializer, 
+mesmo que relacionadas a uma foreign key.
+Alternativa correta! Certo! Observe o código abaixo, onde é possível 
+configurar o serializer para exibir os nomes dos alunos matriculados 
+em um curso.
+
+class ListaAlunosMatriculadosSerializer(serializers.ModelSerializer):
+    aluno_nome = serializers.ReadOnlyField(source='aluno.nome')
+    class Meta:
+        model = Matricula
+        fields = ['aluno_nome']
+
+Os serializadores permitem que dados complexos, como conjuntos de 
+consultas e instâncias de modelo, sejam convertidos em tipos de 
+dados Python nativos.
+
+Alternativa correta! Certo! Além de convertidos para dados do 
+Python, podem ser facilmente renderizados em JSON, XML ou outros 
+tipos de conteúdo.
+-----------------------------------------------------------------------
