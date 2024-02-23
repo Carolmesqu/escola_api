@@ -75,3 +75,36 @@ Realizamos uma requisição GET retornando um Json;
 
 Instalamos o Django Rest Framework.
 -----------------------------------------------------------------------
+O protocolo HTTP define um conjunto de métodos de requisição 
+responsáveis por indicar a ação a ser executada para um dado recurso. 
+Embora esses métodos possam ser descritos como substantivos, eles 
+também são comumente referenciados como HTTP Verbs (Verbos HTTP).
+
+Em relação aos verbos, podemos dizer que:
+
+O método DELETE remove um recurso específico.
+
+Alternativa correta! Certo! Conforme vimos em aula, o 
+localhost:8000/alunos/2 com uma solicitação DELETE por exemplo, 
+irá remover este recurso do servidor.
+
+Existem 2 métodos para atualizar um recurso no servidor.
+Alternativa correta! Certo! O método PUT substitui todas as atuais 
+representações do recurso de destino pela carga de dados da requisição 
+Já o método PATCH é utilizado para aplicar modificações parciais em 
+um recurso.
+
+O método GET solicita a representação de um recurso específico.
+Alternativa correta! Certo! Conforme vimos em aula, o 
+localhost:8000/alunos/2 com uma solicitação GET por exemplo, 
+nos mostra detalhes de um determinado aluno ou aluna.
+-----------------------------------------------------------------------
+Vimos que existem dois verbos do HTTP para atualizar um recurso, 
+o PUT e o PATCH;
+
+Deletamos um recurso executando uma solicitação DELETE;
+
+Criamos o modelo de matrícula, vinculando um aluno em um curso;
+
+Disponibilizamos os recursos de matrícula para nossa API.
+-----------------------------------------------------------------------
