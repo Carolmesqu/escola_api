@@ -31,6 +31,7 @@ Instalamos o Django Rest Framework.
 Usuário (leave blank to use 'carol'): 
 Endereço de email: carol@test.com
 Password:123456
+venv\Scripts\activate
 -----------------------------------------------------------------------
 Para manter os dados armazenados no banco de dados, criamos um modelo 
 e executamos a migração.
